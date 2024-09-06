@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codeflix.Catalog.UnitTest", "test\Codeflix.Catalog.UnitTest\Codeflix.Catalog.UnitTest.csproj", "{53F62206-2B20-458B-B1EF-BCA23689AFB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codeflix.Catalog.Domain", "src\Codeflix.Catalog.Domain\Codeflix.Catalog.Domain.csproj", "{FE5F179D-E110-4178-B102-668F941C6C2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F62206-2B20-458B-B1EF-BCA23689AFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F62206-2B20-458B-B1EF-BCA23689AFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F62206-2B20-458B-B1EF-BCA23689AFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F62206-2B20-458B-B1EF-BCA23689AFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5F179D-E110-4178-B102-668F941C6C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5F179D-E110-4178-B102-668F941C6C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5F179D-E110-4178-B102-668F941C6C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5F179D-E110-4178-B102-668F941C6C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
