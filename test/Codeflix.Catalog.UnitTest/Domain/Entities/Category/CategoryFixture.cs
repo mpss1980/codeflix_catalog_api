@@ -10,10 +10,16 @@ public class CategoryFixture : BaseFixture
     {
     }
 
-    public Entity.Category GetCategory()
+    public Entity.Category GetCategory(bool? isActive = null)
     {
-        return new Entity.Category(Faker.Random.Word(), Faker.Lorem.Paragraph());
+        return isActive != null
+            ? new Entity.Category(GetValidName(), GetValidName(), isActive.Value)
+            : new Entity.Category(GetValidName(), GetValidDescription());
     }
+
+    private string GetValidName() => Faker.Random.String2(3, 255);
+
+    private string GetValidDescription() => Faker.Random.String2(1, 10000);
 }
 
 [CollectionDefinition(nameof(CategoryFixture))]
