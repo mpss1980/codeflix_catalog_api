@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ARandomizer_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F83d7da5b283f18b7afaee4dab91e55d8dca5e8987f85d10f108188cf35b63_003FRandomizer_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b76b22bc_002D272e_002D48c3_002Da9f4_002D62a9e2dc2e2d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CategoryTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Domain.Entities.Category.CategoryTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Domain.Validations.DomainValidationTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.CreateCategory.CreateCategoryUseCaseTest.ShouldCreateCategory&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.CreateCategory.CreateCategoryUseCaseTest.ShouldCreateCategoryOnlyWithNameParam&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.CreateCategory.CreateCategoryUseCaseTest.ShouldCreateCategoryOnlyWithNameAndDescriptionParam&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.CreateCategory.CreateCategoryUseCaseTest.ShouldThrowExceptionWhenCannotInstantiateCategory&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.DeleteCategory.DeleteCategoryTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
