@@ -8,4 +8,5 @@ public interface ICategoryRepository : ISearchableRepository<Category>
     public Task Insert(Category category, CancellationToken cancellationToken);
     public Task<Category> Get(Guid id, CancellationToken cancellationToken);
     public Task Delete(Category category, CancellationToken cancellationToken);
+    public Task Update(Category category, CancellationToken cancellationToken);
 }

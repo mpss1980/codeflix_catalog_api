@@ -1,6 +1,5 @@
 using Codeflix.Catalog.Application.UseCases.Category.Common;
 using Codeflix.Catalog.Application.UseCases.Category.ListCategories;
-using Codeflix.Catalog.Domain.Commons;
 using Codeflix.Catalog.Domain.Commons.SearchableRepository;
 using FluentAssertions;
 using Moq;
