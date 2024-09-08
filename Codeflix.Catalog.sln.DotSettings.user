@@ -10,5 +10,8 @@
     &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.CreateCategory.CreateCategoryUseCaseTest.ShouldThrowExceptionWhenCannotInstantiateCategory&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.DeleteCategory.DeleteCategoryTest&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.GetCategory.GetCategoryUsecaseTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.ListCategories.ListCategoriesUseCaseTest.ShouldListCategories&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.ListCategories.ListCategoriesUseCaseTest.ShouldListCategoriesWithEmptyList&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Category.ListCategories.ListCategoriesUseCaseTest.ShouldListCategoriesWithDifferentSearch&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

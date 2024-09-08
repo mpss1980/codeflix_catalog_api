@@ -111,12 +111,12 @@ public class CreateCategoryUseCaseTest
         output.CreatedAt.Should().NotBeSameDateAs(default);
     }
 
-    [Theory(DisplayName = nameof(ShouldThrowExceptionWhenCannotInstantiateCategory))]
+    [Theory(DisplayName = nameof(ShouldThrowExceptionWhenCannotCreateCategory))]
     [MemberData(
         nameof(CreateCategoryDataGenerator.GetInvalidInputs),
         MemberType = typeof(CreateCategoryDataGenerator)
     )]
-    public async void ShouldThrowExceptionWhenCannotInstantiateCategory(
+    public async void ShouldThrowExceptionWhenCannotCreateCategory(
         CreateCategoryInput input,
         string exceptionMessage
     )
