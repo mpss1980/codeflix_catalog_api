@@ -3,7 +3,7 @@ using Codeflix.Catalog.Application.UseCases.Genre.Common;
 using Codeflix.Catalog.Domain.Repositories;
 using Entity = Codeflix.Catalog.Domain.Entities;
 
-namespace Codeflix.Catalog.Application.UseCases.Genre.CreateCategory;
+namespace Codeflix.Catalog.Application.UseCases.Genre.CreateGenre;
 
 public class CreateGenreUseCase : ICreateGenreUseCase
 {
@@ -49,7 +49,7 @@ public class CreateGenreUseCase : ICreateGenreUseCase
             var notFoundIds = categoriesIds.FindAll(x => !idsInPersistence.Contains(x));
             var notFoundIdsAsString = String.Join(", ", notFoundIds);
             throw new RelatedAggregateException(
-                $"Related category ud (or dis) not found: {notFoundIdsAsString}");
+                $"Related category id (or dis) not found: {notFoundIdsAsString}");
         }
     }
 }

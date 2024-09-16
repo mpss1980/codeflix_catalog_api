@@ -1,5 +1,5 @@
 using Codeflix.Catalog.Application.UseCases.Category.CreateCategory;
-using Codeflix.Catalog.Application.UseCases.Genre.CreateCategory;
+using Codeflix.Catalog.Application.UseCases.Genre.CreateGenre;
 using Codeflix.Catalog.UnitTest.Application.Category.Common;
 using Codeflix.Catalog.UnitTest.Application.Category.CreateCategory;
 using Codeflix.Catalog.UnitTest.Application.Genre.Common;

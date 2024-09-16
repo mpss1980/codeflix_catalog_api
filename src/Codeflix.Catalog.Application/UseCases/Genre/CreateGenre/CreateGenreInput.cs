@@ -1,7 +1,7 @@
 using Codeflix.Catalog.Application.UseCases.Genre.Common;
 using MediatR;
 
-namespace Codeflix.Catalog.Application.UseCases.Genre.CreateCategory;
+namespace Codeflix.Catalog.Application.UseCases.Genre.CreateGenre;
 
 public class CreateGenreInput : IRequest<GenreOutput>
 {
