@@ -9,4 +9,5 @@ public interface ICategoryRepository : ISearchableRepository<Category>
     public Task<Category> Get(Guid id, CancellationToken cancellationToken);
     public Task Delete(Category category, CancellationToken cancellationToken);
     public Task Update(Category category, CancellationToken cancellationToken);
+    public Task<IReadOnlyList<Guid>> GetIdListByIds(List<Guid> ids, CancellationToken cancellationToken);
 }

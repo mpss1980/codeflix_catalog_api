@@ -3,7 +3,7 @@ using Codeflix.Catalog.Domain.Validations;
 
 namespace Codeflix.Catalog.Domain.Entities;
 
-public class Genre : Entity
+public class Genre : Aggregate
 {
     public string Name { get; private set; }
     public bool IsActive { get; private set; }
