@@ -14,6 +14,10 @@
     &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Domain.Entities.Genre.GenreTest.ShouldRemoveAllCategories&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.CreateGenre.CreateGenreUseCaseTest.ShouldCreateGenre&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.CreateGenre.CreateGenreUseCaseTest.ShouldCreateGenreWithRelatedCategories&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.CreateGenre.CreateGenreUseCaseTest.ShouldThrowRelatedExceptionWhenRelatedCategoriesIsNotFound&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.CreateGenre.CreateGenreUseCaseTest.ShouldThrowEntityValidationExceptionWhenNameIsInvalid&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.DeleteGenre.DeleteGenreUseCaseTest.ShouldDeleteAGenre&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.DeleteGenre.DeleteGenreUseCaseTest.ShouldThrowNotFoundExceptionWhenGenreNotFound&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b76b22bc_002D272e_002D48c3_002Da9f4_002D62a9e2dc2e2d/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="1" Name="CategoryTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
