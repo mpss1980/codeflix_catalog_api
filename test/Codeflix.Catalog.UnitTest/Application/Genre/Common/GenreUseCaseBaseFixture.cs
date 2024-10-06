@@ -27,6 +27,17 @@ public abstract class GenreUseCaseBaseFixture : BaseFixture
                 genre.AddCategory(categoryId);
         return genre;
     }
+    
+    public List<Entity.Genre> GetGenres(int count = 10)
+        => Enumerable.Range(1, count).Select(_ =>
+        {
+            var genre = GetGenre();
+            GetRandomIdsList().ForEach(genre.AddCategory);
+            return genre;
+        }).ToList();
+    
+    private static List<Guid> GetRandomIdsList(int? count = null)
+        => Enumerable.Range(1, count ?? (new Random()).Next(1, 10)).Select(_ => Guid.NewGuid()).ToList();
 
     private string GetValidCategoryName() => Faker.Random.String2(3, 255);
 
