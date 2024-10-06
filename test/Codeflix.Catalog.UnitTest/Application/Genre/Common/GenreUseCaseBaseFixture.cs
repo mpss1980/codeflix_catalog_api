@@ -36,7 +36,7 @@ public abstract class GenreUseCaseBaseFixture : BaseFixture
             return genre;
         }).ToList();
     
-    private static List<Guid> GetRandomIdsList(int? count = null)
+   public List<Guid> GetRandomIdsList(int? count = null)
         => Enumerable.Range(1, count ?? (new Random()).Next(1, 10)).Select(_ => Guid.NewGuid()).ToList();
 
     private string GetValidCategoryName() => Faker.Random.String2(3, 255);

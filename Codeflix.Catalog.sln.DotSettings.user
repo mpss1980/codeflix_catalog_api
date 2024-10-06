@@ -28,6 +28,15 @@
     &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.ListGenres.ListGenreUseCaseTest.ShouldListGenresEvenOnEmptyList&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.ListGenres.ListGenreUseCaseTest.ShouldListGenresPaginated&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.ListGenres.ListGenreUseCaseTest.ShouldListGenresUsingDefaultValues&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.UpdateGenre.UpdateGenreUseCaseTest.ShouldUpdateGenre&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.UpdateGenre.UpdateGenreUseCaseTest.ShouldThrowExceptionWhenGenreNotFound&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.UpdateGenre.UpdateGenreUseCaseTest.ShouldThrowExceptionWhenNameIsInvalid&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.UpdateGenre.UpdateGenreUseCaseTest.ShouldUpdateOnlyName&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.UpdateGenre.UpdateGenreUseCaseTest.ShouldUpdateGenreWhenAddingCategoriesIds&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.UpdateGenre.UpdateGenreUseCaseTest.ShouldUpdateGenreWhenReplacingCategoriesIds&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.UpdateGenre.UpdateGenreUseCaseTest.ShouldThrowExceptionWhenCategoryIsNotFound&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.UpdateGenre.UpdateGenreUseCaseTest.ShouldUpdateGenreWithoutCategoriesIds&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::53F62206-2B20-458B-B1EF-BCA23689AFB6::net6.0::Codeflix.Catalog.UnitTest.Application.Genre.UpdateGenre.UpdateGenreUseCaseTest.ShouldUpdateGenreWithEmptyCategoriesIds&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b76b22bc_002D272e_002D48c3_002Da9f4_002D62a9e2dc2e2d/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="1" Name="CategoryTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
